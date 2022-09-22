@@ -1,0 +1,188 @@
+@@ -0,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+@import url('https://fonts.google.com/specimen/Outfit');
+
+body {
+    background-color: #0D1A2D;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    width: min(80%, 320px);
+    margin: auto;
+    padding: 10px;
+    border-radius: 3px;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 20px;
+    margin: 50px auto;
+    border-radius: 20px;
+    align-content: center;
+    box-shadow: 5px 5px 8px #0b0024;
+    width: min(75%, 300px);
+    background-color: #15273F;
+}
+
+.wrapper img {
+    width: 100%;
+    height: auto;
+    float: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1px;
+    margin-top: 25px;
+}
+
+h2, p {
+    color: #859ABA;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.etherium img {
+    float: left;
+    width: min(10%, 10px);
+    display: inline;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+hr {
+    width: 90%;
+    height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #859ABA;
+    border: 0 none;
+    border-top: 1px solid#859ABA;
+    clear: both;
+    display: block;
+}
+.coin-time {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px;
+    position: relative;
+}
+.etherium, .etherium img, .etherium h3 {
+    display: inline;
+    float: left;
+}
+
+.etherium h3 {
+    display: inline;
+    margin: 5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+h3 {
+    color: #20FAF3;
+}
+.time{
+    float: right;
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+    margin: 0 5px;
+}
+.time img {
+    float: right;
+    width: 15px;
+    display: inline;
+    margin: 0 7px;
+    margin-top: 2px;
+}
+.time p {
+    display: inline;
+    float: right;
+    margin-top: 2px;
+}
+
+img.avatar {
+    width: 20px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #fff;
+}
+
+span.name {
+    color: #fff;
+}
+
+img.nft-img {
+    background-color: #20FAF3;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    height: 100%;
+}
+
+.image {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #20FAF3;
+    border-radius: 15px;
+}
+img.eye {
+    position: absolute;
+    width: 25%;
+    margin: 50% 50%;
+    /* opacity design */
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+.image:hover .nft-img {
+    opacity: 0.4;
+}
+
+.image:hover .eye {
+    opacity: 1;
+}
+
+h1:hover {
+    color: #20FAF3;
+}
+
+span.name:hover {
+    color: #20FAF3;
+}
+
+.attribution p {
+    color: #859ABA;
+    margin: 1px;
+}
+.attribution a {
+    color: #859ABA;
+    text-decoration: none;
+}
+a:hover {
+    color: #20FAF3;
+    font-size: var(--step-1);
+}
+
